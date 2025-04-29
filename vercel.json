@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/spectrum_analyzer.html"
+    }
+  ]
+} 
