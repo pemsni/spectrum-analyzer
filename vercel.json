@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "spectrum_analyzer.html",
+      "src": "index.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/spectrum_analyzer.html"
+      "dest": "/index.html"
     }
   ]
 } 
